@@ -482,3 +482,112 @@ body{
     box-shadow: 0 0 5px #CACCD1;
 }
 /* guids */
+.guids_wrapper{
+    margin-top: 100px;
+}
+.guids_text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #E6B939;
+}
+.guids_title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    margin-bottom: 8px;
+    color: #575445;
+}
+.guids_subtitle{
+    margin-bottom: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #575445;
+}
+.guids_card{
+    width: 568px;
+}
+.guids_card_person{
+    display: flex;
+}
+.guids_card_person_who{
+    margin-left: 12px;
+}
+.guids_card_persons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.guids_card_person{
+    display: flex;
+    align-items: center;
+}
+.guids_data{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: #6F7278;
+}
+.guids_cards{
+    display: flex;
+    justify-content: space-between;
+}
+.guids_card_text{
+    margin-top: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    color: #575445;
+}
+.guids_photo:hover{
+    box-shadow: 0 0 7px #E6B939;
+    border-radius: 20px;
+}
+.guids_name{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: #575445;
+}
+.guids_name:hover{
+    text-decoration: underline;
+}
+.guids_prof{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    color: #E6B939;
+}
+.guids_a{
+    text-align: center;
+    margin-top: 20px;
+}
+.guids_read{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    color: #575445;
+}
+.guids_read:hover{
+    text-decoration: underline;
+}
