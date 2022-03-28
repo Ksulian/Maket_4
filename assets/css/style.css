@@ -591,3 +591,54 @@ body{
 .guids_read:hover{
     text-decoration: underline;
 }
+/* read */
+.read_wrapper{
+    margin-top: 71px;
+    display: flex;
+    align-items: center;
+}
+.read_photo{
+    margin-left: -125px;
+}
+.read_content{
+    margin-left: -20px;
+}
+.read_text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #E6B939;
+}
+.read_title{
+    margin-bottom: 8px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    color: #575445;
+}
+.read_subtitle{
+    margin-bottom: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #575445;
+}
+.read_read:hover{
+    text-decoration: underline;
+}
+.read_read{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    color: #575445;
+}
