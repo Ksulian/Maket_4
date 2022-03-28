@@ -642,3 +642,122 @@ body{
     line-height: 21px;
     color: #575445;
 }
+/* footer */
+.footer{
+    background: #575445;
+}
+.footer_wrapper{
+    padding: 100px 0;
+}
+.footer_logo{
+    display: flex;
+    margin: 0 auto;
+}
+.footer_content{
+    margin-top: 76px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_block{
+    display: grid;
+}
+.footer_title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #E6B939;
+}
+.footer_a{
+    margin-top: 9px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.footer_a:hover{
+    text-decoration: underline;
+}
+.footer_inputs{
+    display: flex;
+    margin-top: -45px;
+    align-items: center;
+}
+.footer_subtitle{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: -45px;
+    color: #FAFAFC;
+}
+.footer_input{
+    width: 458px;
+    padding-left: 20px;
+    height: 55px;
+    background: #F9FAFB;
+    border: 1px solid #E5E7EB;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #575445;
+}
+.footer_input::placeholder{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #575445;
+    border: none;
+}
+.footer_btn{
+    background: #575445;
+    border-radius: 10px;
+    width: 73px;
+    height: 40px;
+    border: none;
+    margin-left: -82px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+.footer_btn:hover{
+    box-shadow: 0 0 4px #444444;
+}
+.footer_end{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.footer_icons{
+    display: flex;
+    align-items: center;
+}
+.footer_icon{
+    margin-left: 20px;
+}
+.footer_license{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
