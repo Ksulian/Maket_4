@@ -186,3 +186,67 @@ body{
 .about_read:hover{
     text-decoration: underline;
 }
+/* promise */
+.promise{
+    background: url('../img/photos/background3.png') no-repeat center center / cover;
+}
+.promise_wrapper{
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+.promise_subtitle{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #E6B939;
+}
+.promise_title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    margin-bottom: 8px;
+    text-align: center;
+    color: #575445;
+}
+.promise_text{
+    margin-bottom: 70px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #575445;
+}
+.promise_block{
+    text-align: center;
+}
+.promise_title_block{
+    margin-bottom: 9px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #575445;
+}
+.promise_subtitle_block{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #575445;
+}
+.promise_blocks{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 110px;
+}
