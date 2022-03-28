@@ -428,3 +428,57 @@ body{
 .team_a:hover{
     text-decoration: underline;
 }
+/* shop */
+.shop{
+    background: url('../img/photos/backgound5.png') no-repeat center center / cover;
+}
+.shop_wrapper{
+    padding: 100px 0;
+    text-align: center;
+}
+.shop_text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FAFAFC;
+}
+.shop_title{
+    margin-bottom: 8px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    color: #E6B939;
+}
+.shop_subtitle{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 20px;
+    color: #FAFAFC;
+}
+.shop_btn{
+    width: 111px;
+    height: 45px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #575445;
+    border: none;
+    cursor: pointer;
+}
+.shop_btn:hover{
+    box-shadow: 0 0 5px #CACCD1;
+}
+/* guids */
