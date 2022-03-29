@@ -394,15 +394,59 @@ body{
 .team{
     background: url('../img/photos/background4.png') no-repeat center center / cover;
 }
+/* .team_wrapper:hover .team_texts{
+    display: block;
+} */
 .team_wrapper{
-    display: flex;
-    justify-content: right;
-    padding-top: 512px;
-    padding-bottom: 40px;
+   padding-top: 241px;
+   padding-bottom: 46px;
+   display: flex;
+   justify-content: right;
+}
+.team_all{
+    display: grid;
+}
+.team_texts{
+    margin-left: 350px;
+    /* display: none; */
+}
+.team_text{
+    color:#FFFFFF;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+.team_read:hover{
+    text-decoration: underline;
+}
+.team_read{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px; 
+    color: #FFFFFF;
+    margin-bottom: 146px;
+}
+.team_title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 9px;
+    color: #FAFAFC;
 }
 .team_content{
     /* 95 */
-    margin-right: -55px; 
+    margin-top: 146px;
+    /* margin-right: -55px;  */
     background: #292C32;
     border-radius: 16px;
     width: 615px;
@@ -414,6 +458,9 @@ body{
 }
 .team_icon{
     margin-right: 8px;
+}
+.team_read{
+    margin-bottom: 146px;
 }
 .team_a{
     display: flex;
